@@ -1,0 +1,5 @@
+Hello,
+An answer to your question for the product {productname} is available on Nemo's Post scriptum.
+Click the link to view it
+
+{link}

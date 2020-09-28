@@ -1,0 +1,21 @@
+[08-Apr-2013 07:36:56 Europe/Rome] PHP Fatal error:  Uncaught exception 'Swift_Message_MimeException' with message 'Something went wrong whilst trying to move some MIME parts during an attach(). The MIME component threw an exception:<br />Cannot remove child part identified by '5162577837034' as it does not exist. Consider using hasChild() to check.' in /home/nemopsco/public_html/store/tools/swift/Swift/Message.php:542
+Stack trace:
+#0 /home/nemopsco/public_html/store/classes/Mail.php(194): Swift_Message->attach(Object(Swift_Message_Part))
+#1 /home/nemopsco/public_html/store/modules/prestaqna/prestaqna.php(262): MailCore::Send('1', 'qna_admin', 'New question to...', Array, 'nemo@nemops.com', NULL, 'nemo@nemops.com', 'Nemo's PostScri...', NULL, NULL, '/home/nemopsco/...', true)
+#2 /home/nemopsco/public_html/store/modules/prestaqna/ajax.php(6): PrestaQnA::sendRequest(Array)
+#3 {main}
+  thrown in /home/nemopsco/public_html/store/tools/swift/Swift/Message.php on line 542
+[08-Apr-2013 07:37:04 Europe/Rome] PHP Fatal error:  Uncaught exception 'Swift_Message_MimeException' with message 'Something went wrong whilst trying to move some MIME parts during an attach(). The MIME component threw an exception:<br />Cannot remove child part identified by '5162578027051' as it does not exist. Consider using hasChild() to check.' in /home/nemopsco/public_html/store/tools/swift/Swift/Message.php:542
+Stack trace:
+#0 /home/nemopsco/public_html/store/classes/Mail.php(194): Swift_Message->attach(Object(Swift_Message_Part))
+#1 /home/nemopsco/public_html/store/modules/prestaqna/prestaqna.php(262): MailCore::Send('1', 'qna_admin', 'New question to...', Array, 'nemo@nemops.com', NULL, 'nemo@nemops.com', 'Nemo's PostScri...', NULL, NULL, '/home/nemopsco/...', true)
+#2 /home/nemopsco/public_html/store/modules/prestaqna/ajax.php(6): PrestaQnA::sendRequest(Array)
+#3 {main}
+  thrown in /home/nemopsco/public_html/store/tools/swift/Swift/Message.php on line 542
+[21-Oct-2013 13:52:50 Europe/Rome] PHP Fatal error:  Uncaught exception 'Swift_Message_MimeException' with message 'Something went wrong whilst trying to move some MIME parts during an attach(). The MIME component threw an exception:<br />Cannot remove child part identified by '5265159223617' as it does not exist. Consider using hasChild() to check.' in /home/nemopsco/public_html/store/tools/swift/Swift/Message.php:542
+Stack trace:
+#0 /home/nemopsco/public_html/store/classes/Mail.php(194): Swift_Message->attach(Object(Swift_Message_Part))
+#1 /home/nemopsco/public_html/store/modules/prestaqna/prestaqna.php(262): MailCore::Send('1', 'qna_admin', 'New question to...', Array, 'nemo@nemops.com', NULL, 'nemo@nemops.com', 'Prestashop Modu...', NULL, NULL, '/home/nemopsco/...', true)
+#2 /home/nemopsco/public_html/store/modules/prestaqna/ajax.php(6): PrestaQnA::sendRequest(Array)
+#3 {main}
+  thrown in /home/nemopsco/public_html/store/tools/swift/Swift/Message.php on line 542
